@@ -1,0 +1,20 @@
+-Ligaria o interruptor 1. Então eu iria até a sala 1.
+Possibildiade 1: A sala 1 estar com a luz acesa { 
+	Neste caso, voltaria para a sala dos interruptores e ligaria o interrupor 2 e então iria até a sala 2; 
+	Possibildiade 1.1: A sala 2 estar com a luz acesa {
+        	neste caso, saberia que o Interruptor 1 petence a sala 1 e o interruptor 2 pertence a sala 2 e consequentemente o interruptor 3 pertence a sala 3;
+'	}; 
+	Possibildiade 1.2: A sala 2 estar com a luz apagada {
+        	neste caso, saberia que o Interruptor 1 petence a sala 1 e o interruptor 2 pertence a sala 3 e consequentemente o interruptor 3 pertence a sala 2;
+'	}; 
+}; 
+
+Possibildiade 2: A sala 1 estar com a luz apagada. {
+	Neste caso, voltaria para a sala dos interruptores e ligaria o interrupor 2, desligaria o interruptor 1 e então iria até a sala 2;
+	Possibildiade 2.1: A sala 2 estar com a luz acesa {
+        	neste caso, saberia que o Interruptor 2 petence a sala 2 e o interruptor 1 pertence a sala 3 e consequentemente o interruptor 3 pertence a sala 1;
+'	};  
+	Possibildiade 2.2: A sala 2 estar com a luz apagada {
+        	neste caso, saberia que o Interruptor 1 não petence a sala 1 e o interruptor 2 não pertence a sala 2 e consequentemente o interruptor 3 pertence ou a sala 1 ou a sala 2;
+'	}; 
+}
